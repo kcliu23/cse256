@@ -108,8 +108,8 @@ All visualization results are automatically saved to the `results/` directory.
 * **Hyperparameters:** To ensure a fair comparison, both GloVe and Random models use identical settings:
 * Hidden Size: 300
 * Dropout: 0.3
-* Learning Rate: 
-* Weight Decay: 
+* Learning Rate: 0.0001
+* Weight Decay: 0.00001 
 
 
 * **Early Stopping:** Training monitors Dev Accuracy and stops if no improvement is seen for 15 epochs, restoring the best model weights.
